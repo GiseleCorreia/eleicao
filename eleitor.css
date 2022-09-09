@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://imagens.ebc.com.br/WGZneK-JndOQQthu8hdhziUdtnM=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/eleicoes-1170x720-destaque-agencia_2022-08-08.jpg?itok=as14MpPh");
+  background-color: hsl(0, 8%, 86%);
+  background-size: 80vh;
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: #388E3C;
+  margin: 0 0 5px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+label {
+  color: #388E3C;
+  margin-top: 5px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  border:#388E3C solid 2px;
+  
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background:#388E3C;
+  color: #ffffff;
+}
+button:hover {
+  background: #303F9F;
+  box-shadow: inset  white;
+  text-shadow: none;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 30px;
+}
